@@ -1,0 +1,133 @@
+:root {
+    --nutmeg: hsl(14, 45%, 36%);
+    --raspberry: hsl(332, 51%, 32%);
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(30, 54%, 90%);
+    font-family: sans-serif;
+    color: hsl(24, 5%, 18%)
+}
+
+.recipe_card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: white;
+    border-radius: 25px;
+    height: 1900px;
+    width: 700px;
+    word-wrap: break-word;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.omelette {
+    width: 650px;
+    height: auto;
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: hsl(24, 5%, 18%);
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    word-wrap: break-word;
+}
+
+h1 {
+    font-family: serif;
+    color: black;
+}
+
+h2 {
+    font-family: serif;
+    color: var(--nutmeg);
+}
+
+h3 {
+    color: var(--raspberry);
+    padding-left: 20px;
+}
+
+
+
+hr {
+    border-width: 1px;
+    width: 650px;
+}
+
+ul {
+    color: var(--nutmeg);
+
+}
+
+ul li {
+    margin-bottom: 15px;
+}
+
+ol {
+    color: var(--nutmeg);
+    font-weight: bold;
+}
+
+ol li {
+    margin-bottom: 15px;
+}
+
+li span {
+    color: hsl(24, 5%, 18%);
+    font-weight: normal;
+    margin-left: 25px;
+}
+
+
+
+prep {
+    background-color: hsl(330, 100%, 98%);
+    width: 600px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+}
+
+.prep_list {
+    color: hsl(332, 51%, 32%)
+}
+
+row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    font-weight: bold;
+    color: var(--nutmeg);
+}
+
+p {
+    margin-bottom: 25px;
+}
+
+row div.text {
+    font-weight: normal;
+}
+
+footer {
+    position: relative;
+    margin-bottom: 10px;
+}
